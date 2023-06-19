@@ -31,7 +31,7 @@
     <h1 on:click={() => window.location.reload()} class="logo">Warpstar</h1>
   </div>
   <div class="nav-buttons">
-    <a href="https://discord.gg/dsHUpK2hK6" target="_blank" rel="noreferrer">
+    <a href="https://discord.gg/" target="_blank" rel="noreferrer" style="display:none;">
       <img src="/discord.svg" />
     </a>
     <NavbarButton on:click={() => (showModal = true)}>Import</NavbarButton>
